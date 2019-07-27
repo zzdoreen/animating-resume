@@ -24,7 +24,7 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* Forked by https://github.com/jirengu-inc/animating-resume
+* Forked from https://github.com/jirengu-inc/animating-resume
 * 大家好，我是ZZ
 * 可能是太闲了，发现大佬做的动态简历，觉得很有意思
 * 在GitHub上找到了基于Vue做的这个
