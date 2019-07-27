@@ -1,7 +1,7 @@
 # 一个会动的简历模板
 
 ## 在线预览
-https://zzdoreen.github.io/animating-resume/public/index.html
+https://zzdoreen.github.io/animating-resume/public/
 
 ## 使用方法
 
