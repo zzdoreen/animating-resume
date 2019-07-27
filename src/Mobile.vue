@@ -24,20 +24,22 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* Forked by https://github.com/jirengu-inc/animating-resume
+* 大家好，我是ZZ
+* 可能是太闲了，发现大佬做的动态简历，觉得很有意思
+* 在GitHub上找到了基于Vue做的这个
+* 然后就拷贝了一份，自己更改了一些
+* 好了，现在就开始写我的简历了！
 */
 
 /* 首先给所有元素加上过渡效果 */
 * {
   transition: all .3s;
 }
-/* 白色背景太单调了，我们来点背景 */
+/* 白色背景敲代码不太习惯，我们来个深色的背景 */
 html {
   color: rgb(222,222,222);
-  background: rgb(0,43,54);
+  background: rgba(0,0,0,.7);
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -128,36 +130,33 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `曾智
 ----
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+进击のweb前端小白，
+目前准大四
+现在目标只想求个offer QAQ [十分卑微]
 
 技能
 ----
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
-
-工作经历
-----
-
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+* 前端开发 （目前只会一个Vue框架，还在学习中）
+* 绘画  （坚持的最久的爱好 从小喜欢 只是喜欢摸鱼，没什么长进）
+* 摄影  （确切的说更喜欢调色调 只会拍风景）
+* MMD   （B站有投稿，但是播放量比较惨淡）
 
 链接
 ----
+* [GitHub](https://github.com/zzdoreen)
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
-
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+作品
+----
+*目前打包编译好能看到效果的就只有[音乐播放器](https://zzdoreen.github.io/musicplayer/dist/index#/recommend)
+>跟着视频写的，
+数据接口是用的QQ音乐的，
+但是搜索和歌词的数据接口获取不了所以没有实现歌词显示和搜索功能，
+首页推荐歌单的数据接口的一些关键信息也没有找到QAQ 所以首页推荐歌单内没有内容
+好像还有一些不能拖动的bug，我也不知道怎么解决，先凑合看吧
 
 `
       }
